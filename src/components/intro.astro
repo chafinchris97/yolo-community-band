@@ -4,15 +4,15 @@ import portrait from "../../public/ycb-portrait-cropped.jpg"
 import circle from "../../public/circle-gradient.jpg"
 ---
 
-<div class="relative xl:mt-12 flex flex-col sm:flex-row items-center justify-center">
-    <div class="basis-1/2 mx-6 xl:mx-12 mt-3 order-last sm:order-first z-20">
-        <h1 class="text-4xl xl:text-6xl font-semibold">
+<div class="relative mt-12 flex flex-col md:flex-row items-center justify-center">
+    <div class="basis-1/2 mx-6 xl:mx-12 mt-3 order-last md:order-first">
+        <h1 class="xl:text-6xl text-5xl font-semibold">
             Welcome to the <br />
             <span class="text-green">Yolo Community <br />
             Band</span>
         </h1>
         <div class="relative">
-            <p id="anim-p" class="p-6 text-sm xl:text-lg">
+            <p id="anim-p" class="p-6 xl:text-lg text-md">
                 Yolo Community Band has a goal to foster community through 
                 the passion of our musicianship, artistry, and friendship.
                 <br />
@@ -24,11 +24,11 @@ import circle from "../../public/circle-gradient.jpg"
         </div>
     </div>
 
-    <div class="relative px-12 mx-3 pb-12 basis-1/2 flex flex-row justify-center">
-        <div class="z-10 xl:w-4/5 h-full ">
+    <div class="relative px-4 lg:px-6 md:mx-12 mx-3 pb-12 basis-1/2 flex flex-row justify-center">
+        <div class="z-10 w-5/6">
             <Image class="rounded-3xl" src={portrait} alt="YCB portrait"/>
         </div>
-        <div class="absolute">
+        <div class="absolute w-6/7">
             <Image src={circle} alt="Gradient Circle" />
         </div>
     </div>
