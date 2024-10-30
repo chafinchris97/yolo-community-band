@@ -1,7 +1,11 @@
 import { defineConfig } from 'astro/config';
+import tailwind from "@astrojs/tailwind";
+
+import svelte from "@astrojs/svelte";
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://chafinchris97.github.io',
-    base: '/yolo-community-band',
+  site: 'https://chafinchris97.github.io',
+  base: '/yolo-community-band',
+  integrations: [tailwind(), svelte()]
 });
