@@ -9,15 +9,7 @@
 
 </script>
 
-<nav class="relative mx-6 mb-24 flex justify-between items-center pt-12 pb-6 font-medium md:mx-16 lg:mx-16">
-    <svg class="absolute bottom-0 left-1/2 -translate-x-1/2" 
-        width='250' height='4' 
-        viewBox='0 0 250 4' 
-        fill='none' 
-        xmlns="https://www.w3.org/200/svg"
-    >
-        <path d="m2 2L428 2" stroke="#282828" stroke-width="2" stroke-linecap="round" />
-    </svg>
+<nav class="relative px-6 mb-24 flex justify-between items-center pt-6 pb-6 font-medium md:px-16 lg:px-16 shadow-lg">
     
     <!-- TITLE -->
 
@@ -25,7 +17,7 @@
         <Icon />
     </div>
 
-    <h1 class="text-lg font-bold basis-4/6 text-center">
+    <h1 class="text-lg font-bold basis-4/6 text-center underline underline-offset-8">
         <a href="/">Yolo Community Band</a>
     </h1>
     
