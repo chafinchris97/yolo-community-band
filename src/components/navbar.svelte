@@ -9,7 +9,7 @@
 
 </script>
 
-<nav class="relative px-6 mb-24 flex justify-between items-center pt-6 pb-6 font-medium md:px-16 lg:px-16 shadow-lg">
+<nav class="relative px-6 mb-3 flex justify-between items-center pt-6 pb-6 font-medium md:px-16 lg:px-16 shadow-lg bg-white z-40">
     
     <!-- TITLE -->
 
@@ -17,7 +17,7 @@
         <Icon />
     </div>
 
-    <h1 class="text-lg font-bold basis-4/6 text-center underline underline-offset-8">
+    <h1 class="text-lg font-light basis-4/6 text-center underline underline-offset-8">
         <a href="/">Yolo Community Band</a>
     </h1>
     
@@ -38,7 +38,7 @@
     </div>
 
     {#if isToggled}
-        <div class="fixed flex bg-white bottom-0 left-0 w-full h-screen items-center justify-center xl:hidden">
+        <div class="fixed flex bg-white bottom-0 left-0 w-full h-screen items-center justify-center xl:hidden z-40">
             <div class="flex flex-col gap-24 text-lg">
                 <a href="#">Home</a>
                 <a href="#">Services</a>
