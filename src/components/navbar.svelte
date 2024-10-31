@@ -24,8 +24,8 @@
     <div class="hidden xl:block basis-1/6">
         <div class="flex gap-12 justify-end items-end">
             <a href="#">Home</a>
-            <a href="#">Services</a>
-            <a href="#">Contact</a>
+            <a href="#">About</a>
+            <a href="#">Repertoire</a>
         </div>
     </div>
 
@@ -41,8 +41,8 @@
         <div class="fixed flex bg-white bottom-0 left-0 w-full h-screen items-center justify-center xl:hidden z-40">
             <div class="flex flex-col gap-24 text-lg">
                 <a href="#">Home</a>
-                <a href="#">Services</a>
-                <a href="#">Contact</a>
+                <a href="#">About</a>
+                <a href="#">Repertoire</a>
             </div>
         </div>
     {/if}
