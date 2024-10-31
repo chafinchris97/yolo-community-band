@@ -10,7 +10,8 @@ export default {
 				sans: ['Poppins', ...defaultTheme.fontFamily.sans],
 			},
 			colors: {
-				green: '#275B44'
+				green: '#275B44',
+				blue: '#C9D6EA'
 			}
 		},
 	},
