@@ -9,7 +9,7 @@
 
 </script>
 
-<nav class="relative px-6 mb-3 flex justify-between items-center pt-6 pb-6 font-medium md:px-16 lg:px-16 shadow-lg bg-white z-40">
+<nav class="relative px-6 flex justify-between items-center pt-6 pb-6 font-medium md:px-16 lg:px-16 shadow-lg bg-white z-40">
     
     <!-- TITLE -->
 
@@ -25,7 +25,7 @@
         <div class="flex gap-12 justify-end items-end">
             <a href="/yolo-community-band">Home</a>
             <a href="/yolo-community-band/about">About</a>
-            <a href="#">Repertoire</a>
+            <a href="/yolo-community-band/repertoire">Repertoire</a>
         </div>
     </div>
 
@@ -42,7 +42,7 @@
             <div class="flex flex-col gap-24 text-lg">
                 <a href="/yolo-community-band">Home</a>
                 <a href="/yolo-community-band/about">About</a>
-                <a href="#">Repertoire</a>
+                <a href="/yolo-community-band/repertoire">Repertoire</a>
             </div>
         </div>
     {/if}
