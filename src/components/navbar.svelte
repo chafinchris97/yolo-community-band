@@ -40,8 +40,8 @@
     {#if isToggled}
         <div class="fixed flex bg-white bottom-0 left-0 w-full h-screen items-center justify-center xl:hidden z-40">
             <div class="flex flex-col gap-24 text-lg">
-                <a href="#">Home</a>
-                <a href="#">About</a>
+                <a href="/yolo-community-band">Home</a>
+                <a href="/yolo-community-band/about">About</a>
                 <a href="#">Repertoire</a>
             </div>
         </div>
