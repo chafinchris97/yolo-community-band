@@ -1,0 +1,272 @@
+---
+import {Image} from "astro:assets"
+import loya from "../../public/loya.jpg"
+import jeannette from "../../public/jeannette.jpg"
+import jon from "../../public/jon.jpg"
+import profile from "../../public/default-profile.jpg"
+import band from "../../public/band.jpg"
+---
+
+<div class="relative mt-12 flex flex-col mx-6 xl:mx-12 justify-center bg-white">
+
+    <div class="relative flex flex-col md:flex-row justify-center items-center md:mx-48 mb-12">
+        <Image class="mb-6 rounded-3xl w-96 h-full" src={loya} alt="Michael Loya"/>
+        <div class="md:ml-12">
+
+            <h1 class="xl:text-6xl text-5xl font-semibold text-green mb-6">Michael Loya</h1>
+            <p>Michael Loya is a graduate of the University of the Pacific Conservatory of Music 
+                (Bachelors of Music in Music Education). Currently serving as the Director of Music at Jesuit High School 
+                in Carmichael, CA. Mr. Loya conducts the Symphonic Band, Concert Band, Pep Band, Jazz Band, Jazz Combo, 
+                Marching Band, Drumline, and helps to guide all aspects of the school's music program. 
+                Mr. Loya was also previous Director of Music for the Woodland High School for the Past 10 years, 
+                where he taught all music curriculum. 
+                As a clinician and guest conductor/coach, he has worked with an abundance of groups including Sac State, 
+                American River College, Manteca High School, WJUSD schools, and more.
+            </p>
+
+            <h1 class="xl:text-6xl text-5xl font-semibold text-green mb-6 mt-6">Education and <br />Experience</h1>
+            <p>Michael Loya studied conducting and music education under industry leading educators including the program director 
+                Dr. Ruth V. Brittan. Continuing on after earning his degree, Michael Loya has practiced & studied the art 
+                of conducting under several reputable conductors including Dr. Jack Stamp (University of Pennsylvania), 
+                Dr. Matthew Morse (Sacramento State University), Dr. Emily Thrienan (University of Minnesota), 
+                Dr. Peter Boonshaft (Hofstra University, & Author of critically acclaimed best-selling books 
+                "teaching Music with passion, purpose, and promise"), Dr. Robert Halseth (Sacramento State University), 
+                Kevin Sedatole (Michigan State University), Harvey Benstein (Walnut Creek CB), Dr. Nicolas Waldvogel 
+                (University of the Pacific Orchestra), and the late Dr. Eric Hammer (University of the Pacific Bands). 
+                He is a frequent Member and Participant of the Sacramento conducting wind symposium held yearly by reputable colleges, 
+                both participating as a conductor and an ensemble member.
+
+                Mr. Loya is Looking forward to continued learning and growing as he works with our 
+                wonderful musicians in the Yolo Community Band!
+            </p>
+        </div>
+    </div>
+
+    <div class="relative flex flex-col md:flex-row justify-center items-center md:mx-48 mb-12">
+
+        <div class="md:order-first order-last">
+            <h1 class="xl:text-6xl text-5xl font-semibold text-green mb-6">Performance Background</h1>
+            <p>During his years at University of the Pacific, Michael Loya was a very active member in his Conservatory. He studied Saxophone Performance under the direction of acclaimed saxophonist David Henderson (who received his Masters of Music from the Juilliard School of Music, and regularly performs with the San Francisco Symphony Orchestra, Opera, and Ballet). Mr. Loya has performance history with the University Wind Ensemble, Pineapple Sax Quartet, 1-Up Sax Quartet, UOP Choral Ensembles, Four Sax Only Sax Quartet, American River College Symphonic Band. He was also was the Director of the Conservatory Sax Ensemble for two years. Currently Mr. Loya plays in the Sierra Nevada Winds Orchestra (a recipient of the Sousa Silver Scroll, an award given to only one band in the nation annually); as well as other local jazz combos, sax quartets, and performance ensembles. He was awarded the University of the Pacific Conservatory of Music Outstanding Achievement Award for his work within the music department.
+
+                Mr. Loya actively participates in clinics, performance and adjudication opportunities, educational professional development, and all other aspects of staying involved in the field of music education
+            </p>
+        </div>
+
+        <Image src={band} alt="Band" class="mb-12 rounded-3xl w-96 h-full md:mt-6 md:ml-12"/>
+    </div>
+
+
+    <div class="carousel rounded-box mb-12 md:mx-64">
+        <div class="carousel-item w-64 mr-12">
+            <div class="flex-1 relative flex flex-col items-center">
+                <Image src={jeannette} alt="Jeannette" class="rounded-full mb-6 aspect-square" />
+                <h2 class="font-semibold mb-6">Jeannette Vance</h2>
+                <p>"As a profession Jeanette is Professor of Molecular and Cellular Biology at UC Davis. 
+                    She has her B.S. in Biochemistry, from University of California, Davis. 
+                    She also has her Ph.D. in Biochemistry, University of California, San Francisco."
+                    <br />
+                    <a href="https://biology.ucdavis.edu/people/jeanette-natzle" class="font-bold text-blue">- UC Davis</a>
+                    <br />
+                    <br />
+                    We are fortunate to have Jeanette as a skilled Bass clarinet player within our community band, 
+                    as well as a board member of this organization.
+                </p>
+            </div>
+        </div>
+        <div class="carousel-item w-64 mr-12">
+            <div class="flex-1 relative flex flex-col items-center">
+                <Image src={jon} alt="Jon" class="rounded-full mb-6 aspect-square" />
+                <h2 class="font-semibold mb-6">Jon Lindstrom</h2>
+                <p>As a profession Jon is the owner of Lindstrom's Auto Body 
+                    (Woodland CA) was established in January of 1988 by Jon and his brother Rick. 
+                    Jon has total of 50 years of auto body knowledge to the industry.
+                    <br />
+                    <a href="https://lindstromsautobody.com/about-us/" class="font-bold text-blue">- Lindstrom Auto Body</a>
+                    <br />
+                    <br />
+                    We are fortunate to have Jon as a skilled trumpet player within our community band, 
+                    as well as a board member organization.  
+                </p>
+            </div>
+        </div>
+        <div class="carousel-item w-64 mr-12">
+            <div class="flex-1 relative flex flex-col items-center">
+                <Image src={profile} alt="Default Profile" class="rounded-full mb-6 aspect-square" />
+                <h2 class="font-semibold mb-6">Alice Silvestri</h2>
+                <p>We are fortunate to have Alice Silvestri as a board member of this organization.
+            </div>
+        </div>
+    </div>
+
+    <div class="relative flex flex-col md:mx-48 mb-12">
+        <h1 class="xl:text-6xl text-5xl font-semibold text-green mb-6">Meet the <br />Band Members</h1>
+
+        <div class="md:mx-12 grid md:grid-cols-3 grid-cols-2 grid-flow-row">
+            <div>
+                <h1 class="font-bold">Flute</h1>
+                <ul>
+                    <li>Tori Anderson</li>
+                    <li>Tristan Caughie</li>
+                    <li>Camille Curteman</li>
+                    <li>Paula Loya</li>
+                    <li>Samantha Ono</li>
+                    <li>Sheri Scheldorf</li>
+                    <li>Naomi Kalman</li>
+                </ul>
+            </div>
+
+            <div>
+                <h1 class="font-bold mt-6">Piccolo</h1>
+                <ul>
+                    <li>Paula Loya</li>
+                    <li>Meredith Lutz</li>
+                </ul>
+            </div>
+
+            <div>
+                <h1 class="font-bold mt-6">Oboe</h1>
+                <ul>
+                    <li>Forrest Platt</li>
+                    <li>Kathleen Garrison</li>
+                </ul>
+            </div>
+
+            <div>
+                <h1 class="font-bold mt-6">Clarinet</h1>
+                <ul>
+                    <li>Diego Borges</li>
+                    <li>Elizabet Sappington</li>
+                    <li>Jenny Cardoza</li>
+                    <li>Luiz Coelho</li>
+                    <li>Leila Kelly</li>
+                    <li>Lauren Lindstrom</li>
+                    <li>Patty Selenski</li>
+                    <li>Zoe Tilton</li>
+                    <li>Emily Tang</li>
+                    <li>Alyssa Sappington</li>
+                    <li>Yulissa Martinez</li>
+                    <li>Duane Anderson</li>
+                    <li>Maija Dindzans</li>
+                    <li>Nathan Yoshino</li>
+                    <li>Tracy Yust</li>
+                </ul>
+            </div>
+
+            <div>
+                <h1 class="font-bold mt-6">Bass Clarinet</h1>
+                <ul>
+                    <li>Angelica Mendez</li>
+                    <li>Jeanette Vance</li>
+                    <li>Val Gerriets</li>
+                </ul>
+            </div>
+
+            <div>
+                <h1 class="font-bold mt-6">Alto Saxophone</h1>
+                <ul>
+                    <li>Carson Biggs</li>
+                    <li>Jared Lee-Kin</li>
+                    <li>Matthew Loya</li>
+                    <li>Will Reid</li>
+                    <li>Christopher Chafin</li>
+                    <li>Chloe Jerng</li>
+                    <li>Julia Tsai</li>
+                </ul>
+            </div>
+
+            <div>
+                <h1 class="font-bold mt-6">Tenor Saxophone</h1>
+                <ul>
+                    <li>Lee Katzman</li>
+                    <li>Paul Mendez</li>
+                    <li>Alex Trotter</li>
+                    <li>Phyllis Avalos</li>
+                    <li>Fernanda Padilla</li>
+                    <li>Andrew Gonzalez</li>
+                </ul>
+            </div>
+
+            <div>
+                <h1 class="font-bold mt-6">Baritone Saxophone</h1>
+                <ul>
+                    <li>Teri Lynn Caughie</li>
+                    <li>Eva Wellington</li>
+                </ul>
+            </div>
+
+            <div>
+                <h1 class="font-bold mt-6">French Horn</h1>
+                <ul>
+                    <li>Addison Hanson</li>
+                    <li>Angel Huerta</li>
+                    <li>Hannah Richter</li>
+                    <li>Kathleen Flanagan</li>
+                    <li>Shryl Catz</li>
+                    <li>Shengchi Huang</li>
+                </ul>
+            </div>
+
+            <div>
+                <h1 class="font-bold mt-6">Trumpet</h1>
+                <ul>
+                    <li>Erik Gustavson</li>
+                    <li>Gerald Kost</li>
+                    <li>Jon Lindstrom</li>
+                    <li>Sophie Muth</li>
+                    <li>Jason Schrunk</li>
+                    <li>Mindy Bauer</li>
+                    <li>Dave Yust</li>
+                    <li>Tara Kitchens</li>
+                </ul>
+            </div>
+
+            <div>
+                <h1 class="font-bold mt-6">Trombone</h1>
+                <ul>
+                    <li>Peter Lindquist</li>
+                    <li>Rafael Loza</li>
+                    <li>Samantha Trotter</li>
+                </ul>
+            </div>
+
+            <div>
+                <h1 class="font-bold mt-6">Euphonium</h1>
+                <ul>
+                    <li>Steve Drivon</li>
+                    <li>Suz Houghton</li>
+                </ul>
+            </div>
+
+            <div>
+                <h1 class="font-bold mt-6">Tuba</h1>
+                <ul>
+                    <li>John Borrego</li>
+                    <li>Dana Demant</li>
+                    <li>Robyn Drivon</li>
+                    <li>Matt Richter</li>
+                </ul>
+            </div>
+
+            <div>
+                <h1 class="font-bold mt-6">Double Bass</h1>
+                <ul>
+                    <li>Jillian Tang</li>
+                    <li>Anelia Rupert</li>
+                </ul>
+            </div>
+
+            <div>
+                <h1 class="font-bold mt-6">Percussion</h1>
+                <ul>
+                    <li>Serenna Caughie</li>
+                    <li>Andrew Curteman</li>
+                    <li>Ricardo Escamilla</li>
+                    <li>Marcus Loya</li>
+                    <li>Gabriella Garcia</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+</div>

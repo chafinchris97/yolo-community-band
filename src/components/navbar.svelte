@@ -18,13 +18,13 @@
     </div>
 
     <h1 class="text-lg font-light basis-4/6 text-center underline underline-offset-8">
-        <a href="/">Yolo Community Band</a>
+        <a href="/yolo-community-band">Yolo Community Band</a>
     </h1>
     
     <div class="hidden xl:block basis-1/6">
         <div class="flex gap-12 justify-end items-end">
-            <a href="#">Home</a>
-            <a href="#">About</a>
+            <a href="/yolo-community-band">Home</a>
+            <a href="/yolo-community-band/about">About</a>
             <a href="#">Repertoire</a>
         </div>
     </div>
